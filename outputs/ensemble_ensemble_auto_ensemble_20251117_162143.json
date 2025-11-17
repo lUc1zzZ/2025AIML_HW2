@@ -1,0 +1,14 @@
+{
+  "run_name": "ensemble_auto_ensemble_20251117_162143",
+  "timestamp": "2025-11-17T16:22:17.552601",
+  "model_paths": [
+    "outputs\\ensemble_auto_seed1_20251117_152454\\best.pt",
+    "outputs\\ensemble_auto_seed2_20251117_154406\\best.pt",
+    "outputs\\ensemble_auto_seed3_20251117_160321\\best.pt"
+  ],
+  "norm": "batch",
+  "dropout": 0.3,
+  "base_channels": 32,
+  "ensemble_size": 3,
+  "test_acc": 0.7908
+}
