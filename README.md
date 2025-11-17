@@ -117,7 +117,7 @@ python auto_experiment.py --grid grid.json --kfolds 3 --workers 1 --output-dir o
 自动化训练并评估（仓库内置）：
 
 ```powershell
-python auto_ensemble.py --n-models 3 --epochs 20 --batch-size 128 --dropout 0.3 --norm batch --output-dir outputs --run-prefix ensemble_auto --base-channels 32
+python auto_ensemble.py --n-models 3 --epochs 20 --batch-size 128 --dropout 0.3 --norm batch --output-dir outputs --base-run-name ensemble_auto --base-channels 32
 ```
 
 手动训练后按 checkpoint 路径显式指定：
