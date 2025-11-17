@@ -1,0 +1,16 @@
+{
+  "epochs": 20,
+  "batch_size": 128,
+  "lr": 0.01,
+  "weight_decay": 0.0005,
+  "dropout": 0.3,
+  "norm": "batch",
+  "k_folds": 1,
+  "augment": false,
+  "val_split": 0.1,
+  "seed": 1,
+  "output_dir": "outputs",
+  "run_name": "ensemble_auto_seed1",
+  "base_channels": 32,
+  "label_smoothing": 0.0
+}

@@ -1,0 +1,16 @@
+{
+  "epochs": 20,
+  "batch_size": 128,
+  "lr": 0.01,
+  "weight_decay": 0.0005,
+  "dropout": 0.5,
+  "norm": "batch",
+  "k_folds": 3,
+  "augment": true,
+  "val_split": 0.1,
+  "seed": 42,
+  "output_dir": "outputs",
+  "run_name": "auto_base_channels32_dropout0.5_label_smoothing0.0_lr0.01_normbatch_weight_decay0.0005",
+  "base_channels": 32,
+  "label_smoothing": 0.0
+}
